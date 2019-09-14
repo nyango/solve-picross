@@ -86,7 +86,7 @@ object SolvePicross extends App {
     nonDecided = res.foldLeft(0)((acc, ele) => acc + ele.filter(_.isEmpty).size)
     cnt += 1
     println("")
-    println(s"試行回数${cnt}回目\t未確定コマ数:$nonDecided")
+    println(s"試行回数${cnt}回目\t未確定マス数:$nonDecided")
     printout(res)
     println("")
   }
