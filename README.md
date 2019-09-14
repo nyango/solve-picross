@@ -4,11 +4,10 @@
 
 ## How to run
 
-### 起動
 #### scalacが入っている場合
 
 ```
-$ scalac picross.scala
+$ scalac picross.scala # この行は一度実行したらその後実行しなくて良いです。
 $ scala SolvePicross
 ```
 
@@ -17,9 +16,6 @@ $ scala SolvePicross
 ```
 $ sbt run
 ```
-
-### 入力
-
 
 ## How it works
 
@@ -30,7 +26,7 @@ $ sbt run
 大概の問題には対応できると思います。
 
 
-## 入力・結果例
+## Example / 入力・結果例
 
 ```
 Input table height / 盤面の縦幅(nxmのn)を入力してください
