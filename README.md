@@ -7,8 +7,8 @@
 #### scalacが入っている場合
 
 ```
-$ scalac picross.scala # この行は一度実行したらその後実行しなくて良いです。
-$ scala SolvePicross
+$ scalac src/main/scala/com/github/nyango/solvepicross/picross.scala # この行は一度実行したらその後実行しなくて良いです。
+$ scala com.github.nyango.solvepicross.SolvePicross
 ```
 
 #### sbtが入っている場合
